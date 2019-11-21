@@ -85,6 +85,8 @@
 
             span3.textContent = three + six;
 
+            
+
 
       
 
@@ -100,37 +102,25 @@
         let span1 = document.getElementById("s1")
 
             span1.textContent = one + four;
+         if(span3.textContent > 9){
+             let total = span3.textContent.split("");
+             console.log(total)
+              span3.textContent = parseInt(total[1]);
+              rem.textContent = parseInt(total[0])
+              span2.textContent = two + five + parseInt(rem.textContent);
+            
 
+              
+         }if(span2.textContent > 9){
+            let total2 = span2.textContent.split("");
+            span2.textContent = parseInt(total2[1]);
+            rem2.textContent = parseInt(total2[0])
+
+            span1.textContent = one + four + parseInt(rem2.textContent)+",";
+
+            
+            
+         }
            
         
-        if(span3.textContent <= 9){
-
-          span3.textContent = span3.textContent;
-          
-        }else{
-
-
-          let res3 = span3.textContent.split("");
-
-          // span3 array ubadal
-             
-
-             span3.textContent = parseInt(res3[1]);
-
-             // markaa span3.textContent = [1]
-
-             
-
-
-          rem.textContent =  parseInt(res3[0]);
-          
-        }
-
-        if(rem.textContent === "1"){
-          console.log(span2.textContent)
-
-          
-
-    
-
   })
