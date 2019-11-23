@@ -1,1 +1,1 @@
-I made simple machine learning using just vanilla javascript
+I made simple artificial intelligence using just vanilla javascript
