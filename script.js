@@ -124,3 +124,15 @@
            
         
   })
+
+  let title = document.querySelector("#title");
+
+      setInterval(function(){
+          if(window.getComputedStyle(title).display === "block"){
+              title.style.display = "none";
+          }else{
+              title.style.display = "block";
+              
+            
+          }
+      },400)
