@@ -1,69 +1,98 @@
 .mathDigits{
-   border: 2px solid black;
-   width: 200px;
+    border: 2px solid rgb(201, 12, 12);
+    width: 200px;
+    position: relative;
+    height: 70px;
+    display: flex;
+    left: 500px;
+    top: 190px;
+    justify-content: center;
+    justify-content: space-between;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    
+
+    
+ }
+ 
+ .mathDigits >#four,#five,#six{
+    position: relative;
+    top: -40px;
+    left: -65px;
+    font-size: 54px;
+ }
+ 
+ .mathDigits > #one,#two,#three{
+      position: relative;
+      right: -40px;
+      top: -120px;
+      font-size: 54px;
+ }
+ 
+ 
+ .results{
    position: relative;
-   height: 70px;
-   display: flex;
    left: 500px;
-   top: 150px;
-   justify-content: center;
-   justify-content: space-between;
-   border-top: none;
-   border-left: none;
-   border-right: none;
-   cursor: pointer;
+   display: flex;
+   justify-content: space-around;
    
-}
+   left: 532px;
+   width: 120px;
+   top: 200px;
+   cursor: pointer;
+   font-size: 54px;
+ }
+ 
+ #rem{
+   background-color: red;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   border: none;
+   position: absolute;
+   left: 610px;
+   top: 110px;
+   color: white;
+   font-size: 18px;
+ 
+ }
+ 
+ #rem2{
+   background-color: red;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   border: none;
+   position: absolute;
+   left: 570px;
+   top: 110px;
+   color: white;
+   font-size: 18px;
+ }
 
-.mathDigits >#four,#five,#six{
-   position: relative;
-   top: 29px;
-   left: -65px
-}
+ #plus{
+     position: absolute;
+     font-size: 30px;
+     font-weight: bold;
+     top: 230px;
+     left: 520px;
+ }
 
-.mathDigits > #one,#two,#three{
-     position: relative;
-     right: -50px;
-     top: -15px;
-}
+ #btn{
+     background-color: blue;
+     outline: none;
+     color: white;
+     border: none;
+     position: absolute;
+     left: 650px;
+     top: 250px;
+ }
 
-
-.results{
-  position: relative;
-  left: 500px;
-  display: flex;
-  justify-content: space-around;
-  
-  left: 532px;
-  width: 120px;
-  top: 150px;
-  cursor: pointer;
-}
-
-#rem{
-  background-color: red;
-  height: 14px;
-  width: 14px;
-  border-radius: 50%;
-  border: none;
-  position: absolute;
-  left: 610px;
-  top: 140px;
-  color: white;
-  font-size: 12px;
-
-}
-
-#rem2{
-  background-color: red;
-  height: 14px;
-  width: 14px;
-  border-radius: 50%;
-  border: none;
-  position: absolute;
-  left: 570px;
-  top: 140px;
-  color: white;
-  font-size: 12px;
-}
-
+ #title{
+     font-size: 60px;
+     position: absolute;
+     left: 100px;
+     
+ }
